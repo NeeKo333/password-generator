@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <div class="form-content">
+        <label for="uc">UpperCase</label>
+        <input
+          class="checkbox"
+          data-name="uc"
+          type="checkbox"
+          name=""
+          id="uc"
+        />
+        <label for="lc">LowerCase</label>
+        <input
+          class="checkbox"
+          data-name="lc"
+          type="checkbox"
+          name=""
+          id="lc"
+        />
+        <label for="num">Numbers</label>
+        <input
+          class="checkbox"
+          data-name="num"
+          type="checkbox"
+          name=""
+          id="num"
+        />
+        <input
+          class="input-length"
+          data-name="length"
+          type="range"
+          id="cowbell"
+          name="cowbell"
+          min="1"
+          max="10"
+          value="1"
+          step="1"
+        />
+        <output class="output">1</output>
+      </div>
+      <button class="genBtn">GeneratePass</button>
+    </form>
+    <div class="password"></div>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+.form-content label {
+  text-align: center;
+}
+
+.password {
+  text-align: center;
+}
+
+.genBtn {
+  margin: 0 auto;
+  display: block;
+}
+.input-length {
+  width: 100px;
+  margin: 0 auto;
+}
+.output {
+  width: 30px;
+  height: 20px;
+  margin: 0 auto;
+}
